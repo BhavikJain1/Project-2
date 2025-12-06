@@ -1,8 +1,8 @@
 var sounds = {
-    dog: new Audio("sounds/dog.mp3"),
-    clap: new Audio("sounds/clap.mp3"),
-    pop: new Audio("sounds/pop.mp3"),
-    laugh: new Audio("sounds/laugh.mp3")
+    dog: new Audio("./dog.mp3"),
+    clap: new Audio("./clap.mp3"),
+    pop: new Audio("./pop.mp3"),
+    laugh: new Audio("./laugh.mp3")
 };
 
 var buttons = document.querySelectorAll(".sound-btn");
@@ -63,3 +63,4 @@ muteBtn.addEventListener("click", function () {
         muteBtn.textContent = "Mute";
     }
 });
+
